@@ -1,18 +1,25 @@
 {
-  "dependencies": {
-    "env": "^0.0.2",
-    "express": "^4.17.3",
-    "rollbar": "^2.24.0"
-  },
   "name": "thursday-monitoring-demo",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "server/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanGentryMoore/monitoring-demo.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/EvanGentryMoore/monitoring-demo/issues"
+  },
+  "homepage": "https://github.com/EvanGentryMoore/monitoring-demo#readme",
+  "dependencies": {
+    "env": "^0.0.2",
+    "express": "^4.17.3"
+  }
 }
