@@ -35,4 +35,4 @@ const port = process.env.PORT || 4545
 // record a generic message and send it to Rollbar
 rollbar.log("Hello world!");
 
-app.listen(port , () => console.log(`Running on ${port}, for the glory of the Klingon Empire`))
+app.listen(port , () => console.log(`Running like a refrigerator on ${port}.`))
